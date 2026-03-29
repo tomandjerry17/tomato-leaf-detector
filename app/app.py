@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 import numpy as np
 from PIL import Image
@@ -49,7 +51,9 @@ LOW_CONFIDENCE_CLASSES = {"Tomato___Early_blight", "Tomato___Target_Spot"}
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model(MODEL_PATH)
+    import tensorflow as tf
+    model = tf.keras.models.load_model(MODEL_PATH, compile=False)
+    return model
 
 def preprocess_image(image: Image.Image):
     image = image.convert("RGB")
