@@ -25,6 +25,8 @@ This project was built as part of a machine learning course. The goal is to help
 
 The model was trained on 15,097 images across 10 disease categories using transfer learning with MobileNetV2 pretrained on ImageNet. It achieves **86% overall accuracy** on the test set of 3,785 images.
 
+https://colab.research.google.com/drive/15SlWFyNo9mSnF9fkKK9s9Clh5AvcdZYX?usp=sharing (training code)
+
 ---
 
 ## Disease Classes
