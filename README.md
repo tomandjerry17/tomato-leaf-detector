@@ -231,3 +231,5 @@ Training takes approximately 30–45 minutes for 15 epochs on a T4 GPU.
 ## License
 
 This project is for academic purposes.
+
+How to run: python -m streamlit run app/app.py
