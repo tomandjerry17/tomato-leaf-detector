@@ -166,6 +166,12 @@ From the project root with your virtual environment active:
 streamlit run app/app.py
 ```
 
+From the project root (without venv):
+
+```bash
+python -m streamlit run app/app.py
+```
+
 The app will open automatically at `http://localhost:8501`.
 
 **How to use:**
@@ -226,12 +232,14 @@ Training takes approximately 30–45 minutes for 15 epochs on a T4 GPU.
 
 ## Team
 
-- [Add your group members' names here]
+- ### Bao, Roger (CS3A)
+- ### Lagayada, Bea (CS3A)
+- ### Laplap, Mariel (CS3A)
+- ### Martinez, Thomas (CS3A)
+- ### Ruelo, Cydney (CS3A)
 
 ---
 
 ## License
 
 This project is for academic purposes.
-
-How to run: python -m streamlit run app/app.py
