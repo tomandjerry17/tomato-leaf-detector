@@ -154,7 +154,7 @@ pip install tensorflow pillow numpy streamlit scikit-learn matplotlib seaborn
 
 The `model.h5` file is not included in the repository due to size. Download it from the link below and place it in the `models/` folder:
 
-> 📥 [Download model.h5 from Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
+> 📥 [Download model.h5 from Google Drive](https://drive.google.com/file/d/14Pjlz4C4l7gKYXyQC4AXRgt8APcejQuR/view?usp=sharing)
 
 ---
 
@@ -220,7 +220,7 @@ Training takes approximately 30–45 minutes for 15 epochs on a T4 GPU.
 
 ## Dataset
 
-- **Source:** [Tomato Leaf Disease Classification — Kaggle](https://www.kaggle.com/datasets/)
+- **Source:** [Tomato Leaf Disease Classification — Kaggle](https://www.kaggle.com/datasets/naveedgull/tomato-leaf-disease)
 - **Total images:** 18,882
 - **Train split:** 15,097 images (80%)
 - **Test split:** 3,785 images (20%)
